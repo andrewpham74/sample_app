@@ -7,4 +7,5 @@ SampleApp::Application.routes.draw do
   match '/contact', to: 'static_pages#contact', via: 'get'
   # You can have the root of your site routed with "root"
   # root 'welcome#index'
+  #
 end
