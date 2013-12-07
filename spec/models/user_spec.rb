@@ -1,3 +1,4 @@
+
   require 'spec_helper'
 
 describe User do
@@ -100,5 +101,3 @@ describe "with a password that's too short" do
     end
 end
 end
-
-
