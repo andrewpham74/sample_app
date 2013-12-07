@@ -2,11 +2,10 @@ require 'spec_helper'
 
 describe StaticPagesController do
 
-  describe "GET '...'" do
+  describe "GET about" do
     it "returns http success" do
-      get '...'
+      get :about
       response.should be_success
     end
   end
-
 end
